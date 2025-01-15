@@ -1,0 +1,1403 @@
+Attribute: Sex
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: M, Count: 1280
+  Value: F, Count: 1142
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: M, Count: 123
+    Value: F, Count: 116
+  Breed: Savannah
+    Value: M, Count: 16
+    Value: F, Count: 10
+  Breed: Siamese
+    Value: M, Count: 30
+    Value: F, Count: 27
+  Breed: Birman
+    Value: F, Count: 94
+    Value: M, Count: 90
+  Breed: Ragdoll
+    Value: F, Count: 109
+    Value: M, Count: 104
+  Breed: Chartreux
+    Value: M, Count: 19
+    Value: F, Count: 12
+  Breed: British Shorthair
+    Value: M, Count: 91
+    Value: F, Count: 74
+  Breed: Turkish Angora
+    Value: F, Count: 14
+    Value: M, Count: 14
+  Breed: Persian
+    Value: M, Count: 108
+    Value: F, Count: 84
+  Breed: Maine Coon
+    Value: M, Count: 126
+    Value: F, Count: 71
+  Breed: European Shorthair
+    Value: M, Count: 522
+    Value: F, Count: 495
+  Breed: Sphynx
+    Value: M, Count: 37
+    Value: F, Count: 36
+
+====================================================================================================
+Attribute: Age
+Total distinct values: 4
+Overall counts and frequencies:
+  Value: 2-10 years, Count: 1177
+  Value: 1-2 years, Count: 498
+  Value: Less than 1 year, Count: 488
+  Value: More than 10 years, Count: 259
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: 2-10 years, Count: 107
+    Value: 1-2 years, Count: 69
+    Value: Less than 1 year, Count: 57
+    Value: More than 10 years, Count: 6
+  Breed: Savannah
+    Value: 2-10 years, Count: 14
+    Value: Less than 1 year, Count: 6
+    Value: 1-2 years, Count: 6
+  Breed: Siamese
+    Value: 2-10 years, Count: 26
+    Value: More than 10 years, Count: 13
+    Value: 1-2 years, Count: 10
+    Value: Less than 1 year, Count: 8
+  Breed: Birman
+    Value: 2-10 years, Count: 94
+    Value: Less than 1 year, Count: 43
+    Value: 1-2 years, Count: 37
+    Value: More than 10 years, Count: 10
+  Breed: Ragdoll
+    Value: 2-10 years, Count: 97
+    Value: Less than 1 year, Count: 64
+    Value: 1-2 years, Count: 46
+    Value: More than 10 years, Count: 6
+  Breed: Chartreux
+    Value: 2-10 years, Count: 19
+    Value: More than 10 years, Count: 6
+    Value: Less than 1 year, Count: 3
+    Value: 1-2 years, Count: 3
+  Breed: British Shorthair
+    Value: 2-10 years, Count: 78
+    Value: Less than 1 year, Count: 40
+    Value: 1-2 years, Count: 40
+    Value: More than 10 years, Count: 7
+  Breed: Turkish Angora
+    Value: 2-10 years, Count: 9
+    Value: Less than 1 year, Count: 7
+    Value: More than 10 years, Count: 7
+    Value: 1-2 years, Count: 5
+  Breed: Persian
+    Value: 2-10 years, Count: 98
+    Value: 1-2 years, Count: 42
+    Value: Less than 1 year, Count: 30
+    Value: More than 10 years, Count: 22
+  Breed: Maine Coon
+    Value: 2-10 years, Count: 96
+    Value: 1-2 years, Count: 55
+    Value: Less than 1 year, Count: 39
+    Value: More than 10 years, Count: 7
+  Breed: European Shorthair
+    Value: 2-10 years, Count: 515
+    Value: Less than 1 year, Count: 172
+    Value: More than 10 years, Count: 171
+    Value: 1-2 years, Count: 159
+  Breed: Sphynx
+    Value: 1-2 years, Count: 26
+    Value: 2-10 years, Count: 24
+    Value: Less than 1 year, Count: 19
+    Value: More than 10 years, Count: 4
+
+====================================================================================================
+Attribute: Shy
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 1674
+  Value: Yes, Count: 748
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 190
+    Value: Yes, Count: 49
+  Breed: Savannah
+    Value: No, Count: 19
+    Value: Yes, Count: 7
+  Breed: Siamese
+    Value: No, Count: 36
+    Value: Yes, Count: 21
+  Breed: Birman
+    Value: No, Count: 141
+    Value: Yes, Count: 43
+  Breed: Ragdoll
+    Value: No, Count: 172
+    Value: Yes, Count: 41
+  Breed: Chartreux
+    Value: No, Count: 24
+    Value: Yes, Count: 7
+  Breed: British Shorthair
+    Value: No, Count: 109
+    Value: Yes, Count: 56
+  Breed: Turkish Angora
+    Value: No, Count: 19
+    Value: Yes, Count: 9
+  Breed: Persian
+    Value: No, Count: 127
+    Value: Yes, Count: 65
+  Breed: Maine Coon
+    Value: No, Count: 147
+    Value: Yes, Count: 50
+  Breed: European Shorthair
+    Value: No, Count: 620
+    Value: Yes, Count: 397
+  Breed: Sphynx
+    Value: No, Count: 70
+    Value: Yes, Count: 3
+
+====================================================================================================
+Attribute: Calm
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 1431
+  Value: No, Count: 991
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 171
+    Value: Yes, Count: 68
+  Breed: Savannah
+    Value: No, Count: 21
+    Value: Yes, Count: 5
+  Breed: Siamese
+    Value: Yes, Count: 33
+    Value: No, Count: 24
+  Breed: Birman
+    Value: Yes, Count: 123
+    Value: No, Count: 61
+  Breed: Ragdoll
+    Value: Yes, Count: 164
+    Value: No, Count: 49
+  Breed: Chartreux
+    Value: Yes, Count: 23
+    Value: No, Count: 8
+  Breed: British Shorthair
+    Value: Yes, Count: 121
+    Value: No, Count: 44
+  Breed: Turkish Angora
+    Value: Yes, Count: 20
+    Value: No, Count: 8
+  Breed: Persian
+    Value: Yes, Count: 145
+    Value: No, Count: 47
+  Breed: Maine Coon
+    Value: Yes, Count: 118
+    Value: No, Count: 79
+  Breed: European Shorthair
+    Value: Yes, Count: 584
+    Value: No, Count: 433
+  Breed: Sphynx
+    Value: No, Count: 46
+    Value: Yes, Count: 27
+
+====================================================================================================
+Attribute: Fearful
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 1932
+  Value: Yes, Count: 490
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 214
+    Value: Yes, Count: 25
+  Breed: Savannah
+    Value: No, Count: 24
+    Value: Yes, Count: 2
+  Breed: Siamese
+    Value: No, Count: 41
+    Value: Yes, Count: 16
+  Breed: Birman
+    Value: No, Count: 155
+    Value: Yes, Count: 29
+  Breed: Ragdoll
+    Value: No, Count: 179
+    Value: Yes, Count: 34
+  Breed: Chartreux
+    Value: No, Count: 23
+    Value: Yes, Count: 8
+  Breed: British Shorthair
+    Value: No, Count: 129
+    Value: Yes, Count: 36
+  Breed: Turkish Angora
+    Value: No, Count: 20
+    Value: Yes, Count: 8
+  Breed: Persian
+    Value: No, Count: 156
+    Value: Yes, Count: 36
+  Breed: Maine Coon
+    Value: No, Count: 177
+    Value: Yes, Count: 20
+  Breed: European Shorthair
+    Value: No, Count: 747
+    Value: Yes, Count: 270
+  Breed: Sphynx
+    Value: No, Count: 67
+    Value: Yes, Count: 6
+
+====================================================================================================
+Attribute: Intelligent
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 2010
+  Value: No, Count: 412
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Yes, Count: 214
+    Value: No, Count: 25
+  Breed: Savannah
+    Value: Yes, Count: 24
+    Value: No, Count: 2
+  Breed: Siamese
+    Value: Yes, Count: 48
+    Value: No, Count: 9
+  Breed: Birman
+    Value: Yes, Count: 154
+    Value: No, Count: 30
+  Breed: Ragdoll
+    Value: Yes, Count: 165
+    Value: No, Count: 48
+  Breed: Chartreux
+    Value: Yes, Count: 26
+    Value: No, Count: 5
+  Breed: British Shorthair
+    Value: Yes, Count: 134
+    Value: No, Count: 31
+  Breed: Turkish Angora
+    Value: Yes, Count: 23
+    Value: No, Count: 5
+  Breed: Persian
+    Value: Yes, Count: 158
+    Value: No, Count: 34
+  Breed: Maine Coon
+    Value: Yes, Count: 166
+    Value: No, Count: 31
+  Breed: European Shorthair
+    Value: Yes, Count: 833
+    Value: No, Count: 184
+  Breed: Sphynx
+    Value: Yes, Count: 65
+    Value: No, Count: 8
+
+====================================================================================================
+Attribute: Vigilant
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 1749
+  Value: No, Count: 673
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Yes, Count: 176
+    Value: No, Count: 63
+  Breed: Savannah
+    Value: Yes, Count: 19
+    Value: No, Count: 7
+  Breed: Siamese
+    Value: Yes, Count: 44
+    Value: No, Count: 13
+  Breed: Birman
+    Value: Yes, Count: 122
+    Value: No, Count: 62
+  Breed: Ragdoll
+    Value: Yes, Count: 118
+    Value: No, Count: 95
+  Breed: Chartreux
+    Value: Yes, Count: 25
+    Value: No, Count: 6
+  Breed: British Shorthair
+    Value: Yes, Count: 117
+    Value: No, Count: 48
+  Breed: Turkish Angora
+    Value: Yes, Count: 23
+    Value: No, Count: 5
+  Breed: Persian
+    Value: Yes, Count: 134
+    Value: No, Count: 58
+  Breed: Maine Coon
+    Value: Yes, Count: 142
+    Value: No, Count: 55
+  Breed: European Shorthair
+    Value: Yes, Count: 784
+    Value: No, Count: 233
+  Breed: Sphynx
+    Value: Yes, Count: 45
+    Value: No, Count: 28
+
+====================================================================================================
+Attribute: Perseverant
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 1690
+  Value: No, Count: 732
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Yes, Count: 202
+    Value: No, Count: 37
+  Breed: Savannah
+    Value: Yes, Count: 18
+    Value: No, Count: 8
+  Breed: Siamese
+    Value: Yes, Count: 35
+    Value: No, Count: 22
+  Breed: Birman
+    Value: Yes, Count: 129
+    Value: No, Count: 55
+  Breed: Ragdoll
+    Value: Yes, Count: 123
+    Value: No, Count: 90
+  Breed: Chartreux
+    Value: Yes, Count: 21
+    Value: No, Count: 10
+  Breed: British Shorthair
+    Value: Yes, Count: 109
+    Value: No, Count: 56
+  Breed: Turkish Angora
+    Value: Yes, Count: 23
+    Value: No, Count: 5
+  Breed: Persian
+    Value: Yes, Count: 114
+    Value: No, Count: 78
+  Breed: Maine Coon
+    Value: Yes, Count: 146
+    Value: No, Count: 51
+  Breed: European Shorthair
+    Value: Yes, Count: 715
+    Value: No, Count: 302
+  Breed: Sphynx
+    Value: Yes, Count: 55
+    Value: No, Count: 18
+
+====================================================================================================
+Attribute: Affectionate
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 1926
+  Value: No, Count: 496
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Yes, Count: 181
+    Value: No, Count: 58
+  Breed: Savannah
+    Value: Yes, Count: 22
+    Value: No, Count: 4
+  Breed: Siamese
+    Value: Yes, Count: 42
+    Value: No, Count: 15
+  Breed: Birman
+    Value: Yes, Count: 158
+    Value: No, Count: 26
+  Breed: Ragdoll
+    Value: Yes, Count: 169
+    Value: No, Count: 44
+  Breed: Chartreux
+    Value: Yes, Count: 25
+    Value: No, Count: 6
+  Breed: British Shorthair
+    Value: Yes, Count: 123
+    Value: No, Count: 42
+  Breed: Turkish Angora
+    Value: Yes, Count: 24
+    Value: No, Count: 4
+  Breed: Persian
+    Value: Yes, Count: 155
+    Value: No, Count: 37
+  Breed: Maine Coon
+    Value: Yes, Count: 157
+    Value: No, Count: 40
+  Breed: European Shorthair
+    Value: Yes, Count: 804
+    Value: No, Count: 213
+  Breed: Sphynx
+    Value: Yes, Count: 66
+    Value: No, Count: 7
+
+====================================================================================================
+Attribute: Friendly
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 1392
+  Value: No, Count: 1030
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Yes, Count: 151
+    Value: No, Count: 88
+  Breed: Savannah
+    Value: No, Count: 17
+    Value: Yes, Count: 9
+  Breed: Siamese
+    Value: Yes, Count: 29
+    Value: No, Count: 28
+  Breed: Birman
+    Value: Yes, Count: 125
+    Value: No, Count: 59
+  Breed: Ragdoll
+    Value: Yes, Count: 153
+    Value: No, Count: 60
+  Breed: Chartreux
+    Value: Yes, Count: 21
+    Value: No, Count: 10
+  Breed: British Shorthair
+    Value: Yes, Count: 92
+    Value: No, Count: 73
+  Breed: Turkish Angora
+    Value: Yes, Count: 16
+    Value: No, Count: 12
+  Breed: Persian
+    Value: Yes, Count: 110
+    Value: No, Count: 82
+  Breed: Maine Coon
+    Value: Yes, Count: 122
+    Value: No, Count: 75
+  Breed: European Shorthair
+    Value: No, Count: 519
+    Value: Yes, Count: 498
+  Breed: Sphynx
+    Value: Yes, Count: 66
+    Value: No, Count: 7
+
+====================================================================================================
+Attribute: Solitary
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 1742
+  Value: Yes, Count: 680
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 193
+    Value: Yes, Count: 46
+  Breed: Savannah
+    Value: No, Count: 20
+    Value: Yes, Count: 6
+  Breed: Siamese
+    Value: No, Count: 35
+    Value: Yes, Count: 22
+  Breed: Birman
+    Value: No, Count: 146
+    Value: Yes, Count: 38
+  Breed: Ragdoll
+    Value: No, Count: 180
+    Value: Yes, Count: 33
+  Breed: Chartreux
+    Value: No, Count: 22
+    Value: Yes, Count: 9
+  Breed: British Shorthair
+    Value: No, Count: 108
+    Value: Yes, Count: 57
+  Breed: Turkish Angora
+    Value: No, Count: 22
+    Value: Yes, Count: 6
+  Breed: Persian
+    Value: No, Count: 132
+    Value: Yes, Count: 60
+  Breed: Maine Coon
+    Value: No, Count: 161
+    Value: Yes, Count: 36
+  Breed: European Shorthair
+    Value: No, Count: 656
+    Value: Yes, Count: 361
+  Breed: Sphynx
+    Value: No, Count: 67
+    Value: Yes, Count: 6
+
+====================================================================================================
+Attribute: Brutal
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 2149
+  Value: Yes, Count: 273
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 198
+    Value: Yes, Count: 41
+  Breed: Savannah
+    Value: No, Count: 18
+    Value: Yes, Count: 8
+  Breed: Siamese
+    Value: No, Count: 55
+    Value: Yes, Count: 2
+  Breed: Birman
+    Value: No, Count: 169
+    Value: Yes, Count: 15
+  Breed: Ragdoll
+    Value: No, Count: 209
+    Value: Yes, Count: 4
+  Breed: Chartreux
+    Value: No, Count: 29
+    Value: Yes, Count: 2
+  Breed: British Shorthair
+    Value: No, Count: 153
+    Value: Yes, Count: 12
+  Breed: Turkish Angora
+    Value: No, Count: 24
+    Value: Yes, Count: 4
+  Breed: Persian
+    Value: No, Count: 183
+    Value: Yes, Count: 9
+  Breed: Maine Coon
+    Value: No, Count: 174
+    Value: Yes, Count: 23
+  Breed: European Shorthair
+    Value: No, Count: 875
+    Value: Yes, Count: 142
+  Breed: Sphynx
+    Value: No, Count: 62
+    Value: Yes, Count: 11
+
+====================================================================================================
+Attribute: Dominant
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 1779
+  Value: Yes, Count: 643
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 147
+    Value: Yes, Count: 92
+  Breed: Savannah
+    Value: No, Count: 16
+    Value: Yes, Count: 10
+  Breed: Siamese
+    Value: No, Count: 41
+    Value: Yes, Count: 16
+  Breed: Birman
+    Value: No, Count: 136
+    Value: Yes, Count: 48
+  Breed: Ragdoll
+    Value: No, Count: 178
+    Value: Yes, Count: 35
+  Breed: Chartreux
+    Value: No, Count: 19
+    Value: Yes, Count: 12
+  Breed: British Shorthair
+    Value: No, Count: 135
+    Value: Yes, Count: 30
+  Breed: Turkish Angora
+    Value: No, Count: 20
+    Value: Yes, Count: 8
+  Breed: Persian
+    Value: No, Count: 158
+    Value: Yes, Count: 34
+  Breed: Maine Coon
+    Value: No, Count: 141
+    Value: Yes, Count: 56
+  Breed: European Shorthair
+    Value: No, Count: 730
+    Value: Yes, Count: 287
+  Breed: Sphynx
+    Value: No, Count: 58
+    Value: Yes, Count: 15
+
+====================================================================================================
+Attribute: Aggressive
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 2027
+  Value: Yes, Count: 395
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 196
+    Value: Yes, Count: 43
+  Breed: Savannah
+    Value: No, Count: 21
+    Value: Yes, Count: 5
+  Breed: Siamese
+    Value: No, Count: 41
+    Value: Yes, Count: 16
+  Breed: Birman
+    Value: No, Count: 158
+    Value: Yes, Count: 26
+  Breed: Ragdoll
+    Value: No, Count: 197
+    Value: Yes, Count: 16
+  Breed: Chartreux
+    Value: No, Count: 26
+    Value: Yes, Count: 5
+  Breed: British Shorthair
+    Value: No, Count: 145
+    Value: Yes, Count: 20
+  Breed: Turkish Angora
+    Value: No, Count: 24
+    Value: Yes, Count: 4
+  Breed: Persian
+    Value: No, Count: 169
+    Value: Yes, Count: 23
+  Breed: Maine Coon
+    Value: No, Count: 178
+    Value: Yes, Count: 19
+  Breed: European Shorthair
+    Value: No, Count: 805
+    Value: Yes, Count: 212
+  Breed: Sphynx
+    Value: No, Count: 67
+    Value: Yes, Count: 6
+
+====================================================================================================
+Attribute: Impulsive
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 1842
+  Value: Yes, Count: 580
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 141
+    Value: Yes, Count: 98
+  Breed: Savannah
+    Value: No, Count: 18
+    Value: Yes, Count: 8
+  Breed: Siamese
+    Value: No, Count: 42
+    Value: Yes, Count: 15
+  Breed: Birman
+    Value: No, Count: 158
+    Value: Yes, Count: 26
+  Breed: Ragdoll
+    Value: No, Count: 179
+    Value: Yes, Count: 34
+  Breed: Chartreux
+    Value: No, Count: 26
+    Value: Yes, Count: 5
+  Breed: British Shorthair
+    Value: No, Count: 140
+    Value: Yes, Count: 25
+  Breed: Turkish Angora
+    Value: No, Count: 21
+    Value: Yes, Count: 7
+  Breed: Persian
+    Value: No, Count: 169
+    Value: Yes, Count: 23
+  Breed: Maine Coon
+    Value: No, Count: 156
+    Value: Yes, Count: 41
+  Breed: European Shorthair
+    Value: No, Count: 733
+    Value: Yes, Count: 284
+  Breed: Sphynx
+    Value: No, Count: 59
+    Value: Yes, Count: 14
+
+====================================================================================================
+Attribute: Predictable
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: Yes, Count: 1327
+  Value: No, Count: 1095
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Yes, Count: 132
+    Value: No, Count: 107
+  Breed: Savannah
+    Value: No, Count: 15
+    Value: Yes, Count: 11
+  Breed: Siamese
+    Value: Yes, Count: 29
+    Value: No, Count: 28
+  Breed: Birman
+    Value: Yes, Count: 104
+    Value: No, Count: 80
+  Breed: Ragdoll
+    Value: Yes, Count: 139
+    Value: No, Count: 74
+  Breed: Chartreux
+    Value: Yes, Count: 19
+    Value: No, Count: 12
+  Breed: British Shorthair
+    Value: Yes, Count: 97
+    Value: No, Count: 68
+  Breed: Turkish Angora
+    Value: Yes, Count: 16
+    Value: No, Count: 12
+  Breed: Persian
+    Value: Yes, Count: 102
+    Value: No, Count: 90
+  Breed: Maine Coon
+    Value: Yes, Count: 101
+    Value: No, Count: 96
+  Breed: European Shorthair
+    Value: Yes, Count: 532
+    Value: No, Count: 485
+  Breed: Sphynx
+    Value: Yes, Count: 45
+    Value: No, Count: 28
+
+====================================================================================================
+Attribute: Distracted
+Total distinct values: 2
+Overall counts and frequencies:
+  Value: No, Count: 1444
+  Value: Yes, Count: 978
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: No, Count: 121
+    Value: Yes, Count: 118
+  Breed: Savannah
+    Value: No, Count: 17
+    Value: Yes, Count: 9
+  Breed: Siamese
+    Value: No, Count: 39
+    Value: Yes, Count: 18
+  Breed: Birman
+    Value: No, Count: 116
+    Value: Yes, Count: 68
+  Breed: Ragdoll
+    Value: No, Count: 116
+    Value: Yes, Count: 97
+  Breed: Chartreux
+    Value: No, Count: 21
+    Value: Yes, Count: 10
+  Breed: British Shorthair
+    Value: No, Count: 97
+    Value: Yes, Count: 68
+  Breed: Turkish Angora
+    Value: No, Count: 22
+    Value: Yes, Count: 6
+  Breed: Persian
+    Value: No, Count: 111
+    Value: Yes, Count: 81
+  Breed: Maine Coon
+    Value: No, Count: 108
+    Value: Yes, Count: 89
+  Breed: European Shorthair
+    Value: No, Count: 633
+    Value: Yes, Count: 384
+  Breed: Sphynx
+    Value: No, Count: 43
+    Value: Yes, Count: 30
+
+====================================================================================================
+Attribute: Coat Color
+Total distinct values: 17
+Overall counts and frequencies:
+  Value: Blue, Count: 302
+  Value: Tortoiseshell, Count: 295
+  Value: White, Count: 282
+  Value: Black, Count: 281
+  Value: Tabby, Count: 241
+  Value: Cream and Seal, Count: 178
+  Value: Cream and Chocolate, Count: 137
+  Value: Silver, Count: 93
+  Value: Brown Tabby, Count: 86
+  Value: Brown, Count: 83
+  Value: Cream and Blue, Count: 82
+  Value: Snow, Count: 81
+  Value: Skin-toned, Count: 73
+  Value: Cream, Count: 62
+  Value: Red, Count: 58
+  Value: Cream and Lilac, Count: 57
+  Value: Blue-gray, Count: 31
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Silver, Count: 84
+    Value: Snow, Count: 81
+    Value: Brown, Count: 74
+  Breed: Savannah
+    Value: Silver, Count: 9
+    Value: Brown, Count: 9
+    Value: Black, Count: 8
+  Breed: Siamese
+    Value: Cream and Seal, Count: 31
+    Value: Cream and Chocolate, Count: 16
+    Value: Cream and Lilac, Count: 5
+    Value: Cream and Blue, Count: 5
+  Breed: Birman
+    Value: Cream and Seal, Count: 70
+    Value: Cream and Chocolate, Count: 48
+    Value: Cream and Blue, Count: 37
+    Value: Cream and Lilac, Count: 29
+  Breed: Ragdoll
+    Value: Cream and Seal, Count: 77
+    Value: Cream and Chocolate, Count: 73
+    Value: Cream and Blue, Count: 40
+    Value: Cream and Lilac, Count: 23
+  Breed: Chartreux
+    Value: Blue-gray, Count: 31
+  Breed: British Shorthair
+    Value: Blue, Count: 70
+    Value: Tortoiseshell, Count: 23
+    Value: Tabby, Count: 22
+    Value: Black, Count: 19
+    Value: Cream, Count: 17
+    Value: White, Count: 14
+  Breed: Turkish Angora
+    Value: White, Count: 11
+    Value: Black, Count: 6
+    Value: Red, Count: 4
+    Value: Blue, Count: 4
+    Value: Cream, Count: 3
+  Breed: Persian
+    Value: White, Count: 57
+    Value: Red, Count: 31
+    Value: Black, Count: 23
+    Value: Tabby, Count: 23
+    Value: Blue, Count: 22
+    Value: Cream, Count: 20
+    Value: Tortoiseshell, Count: 16
+  Breed: Maine Coon
+    Value: Brown Tabby, Count: 86
+    Value: Tortoiseshell, Count: 31
+    Value: Red, Count: 23
+    Value: Cream, Count: 22
+    Value: Black, Count: 22
+    Value: Blue, Count: 13
+  Breed: European Shorthair
+    Value: Tortoiseshell, Count: 225
+    Value: Black, Count: 203
+    Value: White, Count: 200
+    Value: Tabby, Count: 196
+    Value: Blue, Count: 193
+  Breed: Sphynx
+    Value: Skin-toned, Count: 73
+
+====================================================================================================
+Attribute: Coat Pattern
+Total distinct values: 10
+Overall counts and frequencies:
+  Value: Solid, Count: 547
+  Value: Bicolor, Count: 423
+  Value: Spotted, Count: 396
+  Value: Tabby, Count: 393
+  Value: Mitted, Count: 260
+  Value: Color-Point, Count: 150
+  Value: Rosetted, Count: 124
+  Value: No Pattern, Count: 73
+  Value: Tortie, Count: 34
+  Value: Harlequin, Count: 22
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Rosetted, Count: 124
+    Value: Spotted, Count: 115
+  Breed: Savannah
+    Value: Spotted, Count: 26
+  Breed: Siamese
+    Value: Color-Point, Count: 57
+  Breed: Birman
+    Value: Mitted, Count: 184
+  Breed: Ragdoll
+    Value: Bicolor, Count: 77
+    Value: Mitted, Count: 76
+    Value: Color-Point, Count: 60
+  Breed: Chartreux
+    Value: Solid, Count: 31
+  Breed: British Shorthair
+    Value: Solid, Count: 89
+    Value: Harlequin, Count: 22
+    Value: Tabby, Count: 21
+    Value: Bicolor, Count: 18
+    Value: Color-Point, Count: 15
+  Breed: Turkish Angora
+    Value: Solid, Count: 16
+    Value: Tabby, Count: 9
+    Value: Bicolor, Count: 3
+  Breed: Persian
+    Value: Solid, Count: 109
+    Value: Bicolor, Count: 37
+    Value: Tabby, Count: 28
+    Value: Color-Point, Count: 18
+  Breed: Maine Coon
+    Value: Tabby, Count: 92
+    Value: Solid, Count: 41
+    Value: Tortie, Count: 34
+    Value: Bicolor, Count: 30
+  Breed: European Shorthair
+    Value: Solid, Count: 261
+    Value: Bicolor, Count: 258
+    Value: Spotted, Count: 255
+    Value: Tabby, Count: 243
+  Breed: Sphynx
+    Value: No Pattern, Count: 73
+
+====================================================================================================
+Attribute: Coat Length
+Total distinct values: 4
+Overall counts and frequencies:
+  Value: Short, Count: 1535
+  Value: Long, Count: 417
+  Value: Medium, Count: 397
+  Value: Hairless, Count: 73
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Short, Count: 239
+  Breed: Savannah
+    Value: Short, Count: 26
+  Breed: Siamese
+    Value: Short, Count: 57
+  Breed: Birman
+    Value: Medium, Count: 184
+  Breed: Ragdoll
+    Value: Medium, Count: 213
+  Breed: Chartreux
+    Value: Short, Count: 31
+  Breed: British Shorthair
+    Value: Short, Count: 165
+  Breed: Turkish Angora
+    Value: Long, Count: 28
+  Breed: Persian
+    Value: Long, Count: 192
+  Breed: Maine Coon
+    Value: Long, Count: 197
+  Breed: European Shorthair
+    Value: Short, Count: 1017
+  Breed: Sphynx
+    Value: Hairless, Count: 73
+
+====================================================================================================
+Attribute: Coat Texture
+Total distinct values: 8
+Overall counts and frequencies:
+  Value: Sleek, Count: 1339
+  Value: Plush, Count: 213
+  Value: Silky, Count: 212
+  Value: Slightly Coarse, Count: 197
+  Value: Luxurious, Count: 192
+  Value: Dense and Plush, Count: 165
+  Value: Smooth, Count: 73
+  Value: Dense and Woolly, Count: 31
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Sleek, Count: 239
+  Breed: Savannah
+    Value: Sleek, Count: 26
+  Breed: Siamese
+    Value: Sleek, Count: 57
+  Breed: Birman
+    Value: Silky, Count: 184
+  Breed: Ragdoll
+    Value: Plush, Count: 213
+  Breed: Chartreux
+    Value: Dense and Woolly, Count: 31
+  Breed: British Shorthair
+    Value: Dense and Plush, Count: 165
+  Breed: Turkish Angora
+    Value: Silky, Count: 28
+  Breed: Persian
+    Value: Luxurious, Count: 192
+  Breed: Maine Coon
+    Value: Slightly Coarse, Count: 197
+  Breed: European Shorthair
+    Value: Sleek, Count: 1017
+  Breed: Sphynx
+    Value: Smooth, Count: 73
+
+====================================================================================================
+Attribute: Size
+Total distinct values: 4
+Overall counts and frequencies:
+  Value: Medium, Count: 1649
+  Value: Big, Count: 535
+  Value: Very Big, Count: 211
+  Value: Small, Count: 27
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Medium, Count: 123
+    Value: Big, Count: 116
+  Breed: Savannah
+    Value: Very Big, Count: 14
+    Value: Big, Count: 12
+  Breed: Siamese
+    Value: Medium, Count: 34
+    Value: Small, Count: 23
+  Breed: Birman
+    Value: Medium, Count: 184
+  Breed: Ragdoll
+    Value: Big, Count: 213
+  Breed: Chartreux
+    Value: Medium, Count: 31
+  Breed: British Shorthair
+    Value: Medium, Count: 87
+    Value: Big, Count: 78
+  Breed: Turkish Angora
+    Value: Medium, Count: 24
+    Value: Small, Count: 4
+  Breed: Persian
+    Value: Big, Count: 116
+    Value: Medium, Count: 76
+  Breed: Maine Coon
+    Value: Very Big, Count: 197
+  Breed: European Shorthair
+    Value: Medium, Count: 1017
+  Breed: Sphynx
+    Value: Medium, Count: 73
+
+====================================================================================================
+Attribute: Body Type
+Total distinct values: 3
+Overall counts and frequencies:
+  Value: Cobby, Count: 1802
+  Value: Muscular and Athletic, Count: 535
+  Value: Long and Lean, Count: 85
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Muscular and Athletic, Count: 239
+  Breed: Savannah
+    Value: Muscular and Athletic, Count: 26
+  Breed: Siamese
+    Value: Long and Lean, Count: 57
+  Breed: Birman
+    Value: Cobby, Count: 184
+  Breed: Ragdoll
+    Value: Cobby, Count: 213
+  Breed: Chartreux
+    Value: Cobby, Count: 31
+  Breed: British Shorthair
+    Value: Cobby, Count: 165
+  Breed: Turkish Angora
+    Value: Long and Lean, Count: 28
+  Breed: Persian
+    Value: Cobby, Count: 192
+  Breed: Maine Coon
+    Value: Muscular and Athletic, Count: 197
+  Breed: European Shorthair
+    Value: Cobby, Count: 1017
+  Breed: Sphynx
+    Value: Muscular and Athletic, Count: 73
+
+====================================================================================================
+Attribute: Leg Length
+Total distinct values: 3
+Overall counts and frequencies:
+  Value: Medium, Count: 1658
+  Value: Long, Count: 407
+  Value: Short, Count: 357
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Medium, Count: 239
+  Breed: Savannah
+    Value: Long, Count: 26
+  Breed: Siamese
+    Value: Long, Count: 57
+  Breed: Birman
+    Value: Medium, Count: 184
+  Breed: Ragdoll
+    Value: Long, Count: 115
+    Value: Medium, Count: 98
+  Breed: Chartreux
+    Value: Medium, Count: 31
+  Breed: British Shorthair
+    Value: Short, Count: 165
+  Breed: Turkish Angora
+    Value: Medium, Count: 16
+    Value: Long, Count: 12
+  Breed: Persian
+    Value: Short, Count: 192
+  Breed: Maine Coon
+    Value: Long, Count: 197
+  Breed: European Shorthair
+    Value: Medium, Count: 1017
+  Breed: Sphynx
+    Value: Medium, Count: 73
+
+====================================================================================================
+Attribute: Face Shape
+Total distinct values: 5
+Overall counts and frequencies:
+  Value: Rounded, Count: 1445
+  Value: Wedge-shaped, Count: 423
+  Value: Square, Count: 197
+  Value: Flat, Count: 192
+  Value: Round, Count: 165
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Wedge-shaped, Count: 239
+  Breed: Savannah
+    Value: Wedge-shaped, Count: 26
+  Breed: Siamese
+    Value: Wedge-shaped, Count: 57
+  Breed: Birman
+    Value: Rounded, Count: 184
+  Breed: Ragdoll
+    Value: Rounded, Count: 213
+  Breed: Chartreux
+    Value: Rounded, Count: 31
+  Breed: British Shorthair
+    Value: Round, Count: 165
+  Breed: Turkish Angora
+    Value: Wedge-shaped, Count: 28
+  Breed: Persian
+    Value: Flat, Count: 192
+  Breed: Maine Coon
+    Value: Square, Count: 197
+  Breed: European Shorthair
+    Value: Rounded, Count: 1017
+  Breed: Sphynx
+    Value: Wedge-shaped, Count: 73
+
+====================================================================================================
+Attribute: Eye Shape
+Total distinct values: 3
+Overall counts and frequencies:
+  Value: Round, Count: 1405
+  Value: Oval, Count: 649
+  Value: Almond-shaped, Count: 368
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Oval, Count: 239
+  Breed: Savannah
+    Value: Almond-shaped, Count: 26
+  Breed: Siamese
+    Value: Almond-shaped, Count: 57
+  Breed: Birman
+    Value: Almond-shaped, Count: 184
+  Breed: Ragdoll
+    Value: Oval, Count: 213
+  Breed: Chartreux
+    Value: Round, Count: 31
+  Breed: British Shorthair
+    Value: Round, Count: 165
+  Breed: Turkish Angora
+    Value: Almond-shaped, Count: 28
+  Breed: Persian
+    Value: Round, Count: 192
+  Breed: Maine Coon
+    Value: Oval, Count: 197
+  Breed: European Shorthair
+    Value: Round, Count: 1017
+  Breed: Sphynx
+    Value: Almond-shaped, Count: 73
+
+====================================================================================================
+Attribute: Eye Color
+Total distinct values: 10
+Overall counts and frequencies:
+  Value: Blue, Count: 889
+  Value: Green, Count: 481
+  Value: Gold, Count: 452
+  Value: Yellow, Count: 266
+  Value: Copper, Count: 212
+  Value: Odd-eyed, Count: 76
+  Value: Blue-green, Count: 33
+  Value: Amber, Count: 7
+  Value: Orange, Count: 5
+  Value: Hazel, Count: 1
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Blue, Count: 96
+    Value: Green, Count: 69
+    Value: Gold, Count: 44
+    Value: Yellow, Count: 30
+  Breed: Savannah
+    Value: Green, Count: 13
+    Value: Gold, Count: 9
+    Value: Yellow, Count: 3
+    Value: Hazel, Count: 1
+  Breed: Siamese
+    Value: Blue, Count: 57
+  Breed: Birman
+    Value: Blue, Count: 184
+  Breed: Ragdoll
+    Value: Blue, Count: 213
+  Breed: Chartreux
+    Value: Copper, Count: 13
+    Value: Gold, Count: 13
+    Value: Orange, Count: 5
+  Breed: British Shorthair
+    Value: Copper, Count: 80
+    Value: Gold, Count: 52
+    Value: Blue-green, Count: 33
+  Breed: Turkish Angora
+    Value: Blue, Count: 9
+    Value: Odd-eyed, Count: 8
+    Value: Amber, Count: 7
+    Value: Green, Count: 4
+  Breed: Persian
+    Value: Copper, Count: 72
+    Value: Odd-eyed, Count: 45
+    Value: Blue, Count: 39
+    Value: Green, Count: 36
+  Breed: Maine Coon
+    Value: Green, Count: 66
+    Value: Gold, Count: 49
+    Value: Copper, Count: 30
+    Value: Blue, Count: 29
+    Value: Odd-eyed, Count: 23
+  Breed: European Shorthair
+    Value: Green, Count: 272
+    Value: Gold, Count: 267
+    Value: Blue, Count: 245
+    Value: Yellow, Count: 233
+  Breed: Sphynx
+    Value: Green, Count: 21
+    Value: Gold, Count: 18
+    Value: Blue, Count: 17
+    Value: Copper, Count: 17
+
+====================================================================================================
+Attribute: Ear Size
+Total distinct values: 4
+Overall counts and frequencies:
+  Value: Medium, Count: 1650
+  Value: Very Big, Count: 296
+  Value: Small, Count: 262
+  Value: Big, Count: 214
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Big, Count: 129
+    Value: Medium, Count: 110
+  Breed: Savannah
+    Value: Very Big, Count: 26
+  Breed: Siamese
+    Value: Big, Count: 57
+  Breed: Birman
+    Value: Medium, Count: 184
+  Breed: Ragdoll
+    Value: Medium, Count: 213
+  Breed: Chartreux
+    Value: Medium, Count: 31
+  Breed: British Shorthair
+    Value: Medium, Count: 95
+    Value: Small, Count: 70
+  Breed: Turkish Angora
+    Value: Big, Count: 28
+  Breed: Persian
+    Value: Small, Count: 192
+  Breed: Maine Coon
+    Value: Very Big, Count: 197
+  Breed: European Shorthair
+    Value: Medium, Count: 1017
+  Breed: Sphynx
+    Value: Very Big, Count: 73
+
+====================================================================================================
+Attribute: Ear Shape
+Total distinct values: 4
+Overall counts and frequencies:
+  Value: Rounded, Count: 2041
+  Value: Tufted, Count: 197
+  Value: Pointed, Count: 127
+  Value: Triangular, Count: 57
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Rounded, Count: 239
+  Breed: Savannah
+    Value: Pointed, Count: 26
+  Breed: Siamese
+    Value: Triangular, Count: 57
+  Breed: Birman
+    Value: Rounded, Count: 184
+  Breed: Ragdoll
+    Value: Rounded, Count: 213
+  Breed: Chartreux
+    Value: Rounded, Count: 31
+  Breed: British Shorthair
+    Value: Rounded, Count: 165
+  Breed: Turkish Angora
+    Value: Pointed, Count: 28
+  Breed: Persian
+    Value: Rounded, Count: 192
+  Breed: Maine Coon
+    Value: Tufted, Count: 197
+  Breed: European Shorthair
+    Value: Rounded, Count: 1017
+  Breed: Sphynx
+    Value: Pointed, Count: 73
+
+====================================================================================================
+Attribute: Tail Shape
+Total distinct values: 5
+Overall counts and frequencies:
+  Value: Straight and Slightly Curved, Count: 1213
+  Value: Plume and Straight, Count: 814
+  Value: Straight and Tapered, Count: 265
+  Value: Straight and Whip-like, Count: 73
+  Value: Tapered and Whip-like, Count: 57
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Straight and Tapered, Count: 239
+  Breed: Savannah
+    Value: Straight and Tapered, Count: 26
+  Breed: Siamese
+    Value: Tapered and Whip-like, Count: 57
+  Breed: Birman
+    Value: Plume and Straight, Count: 184
+  Breed: Ragdoll
+    Value: Plume and Straight, Count: 213
+  Breed: Chartreux
+    Value: Straight and Slightly Curved, Count: 31
+  Breed: British Shorthair
+    Value: Straight and Slightly Curved, Count: 165
+  Breed: Turkish Angora
+    Value: Plume and Straight, Count: 28
+  Breed: Persian
+    Value: Plume and Straight, Count: 192
+  Breed: Maine Coon
+    Value: Plume and Straight, Count: 197
+  Breed: European Shorthair
+    Value: Straight and Slightly Curved, Count: 1017
+  Breed: Sphynx
+    Value: Straight and Whip-like, Count: 73
+
+====================================================================================================
+Attribute: Tail Length
+Total distinct values: 3
+Overall counts and frequencies:
+  Value: Medium, Count: 1635
+  Value: Long, Count: 595
+  Value: Short, Count: 192
+
+Counts and frequencies by breed:
+  Breed: Bengal
+    Value: Medium, Count: 127
+    Value: Long, Count: 112
+  Breed: Savannah
+    Value: Long, Count: 17
+    Value: Medium, Count: 9
+  Breed: Siamese
+    Value: Medium, Count: 29
+    Value: Long, Count: 28
+  Breed: Birman
+    Value: Medium, Count: 184
+  Breed: Ragdoll
+    Value: Long, Count: 213
+  Breed: Chartreux
+    Value: Medium, Count: 31
+  Breed: British Shorthair
+    Value: Medium, Count: 85
+    Value: Short, Count: 80
+  Breed: Turkish Angora
+    Value: Long, Count: 28
+  Breed: Persian
+    Value: Short, Count: 112
+    Value: Medium, Count: 80
+  Breed: Maine Coon
+    Value: Long, Count: 197
+  Breed: European Shorthair
+    Value: Medium, Count: 1017
+  Breed: Sphynx
+    Value: Medium, Count: 73
+
+====================================================================================================

@@ -1,0 +1,23 @@
+{
+  "Coat Colors": ["White", "Cream", "Snow", "Silver", "Cream and Seal",
+                  "Cream and Chocolate", "Cream and Blue", "Cream and Lilac",
+                  "Blue", "Blue-gray", "Red", "Tabby", "Brown Tabby", "Brown", "Black",
+                  "Tortoiseshell", "Skin-toned"],
+  "Coat Patterns": ["Rosetted", "Spotted", "Mitted", "Color-Point", "Bicolor",
+                    "Solid", "Tabby", "Harlequin", "Tortie", "No Pattern"],
+  "Coat Lengths": ["Short", "Medium", "Long", "Hairless"],
+  "Coat Textures": ["Sleek", "Silky", "Plush", "Dense and Plush",
+                    "Dense and Woolly", "Slightly Coarse", "Luxurious", "Smooth"],
+  "Sizes": ["Small", "Medium", "Big", "Very Big"],
+  "Body Types": ["Muscular and Athletic", "Long and Lean", "Cobby"],
+  "Leg Lengths": ["Short", "Medium", "Long"],
+  "Face Shapes": ["Flat", "Wedge-shaped", "Rounded", "Round", "Square"],
+  "Eye Shapes": ["Almond-shaped", "Oval", "Round"],
+  "Eye Colors": ["Blue", "Green", "Blue-green", "Gold", "Yellow", "Copper", "Orange",
+                 "Odd-eyed", "Hazel", "Amber"],
+  "Ear Sizes": ["Small", "Medium", "Big", "Very Big"],
+  "Ear Shapes": ["Rounded", "Pointed", "Triangular", "Tufted"],
+  "Tail Shapes": ["Plume and Straight", "Straight and Whip-like", "Tapered and Whip-like",
+                  "Straight and Slightly Curved", "Straight and Tapered"],
+  "Tail Lengths": ["Short", "Medium", "Long"]
+}

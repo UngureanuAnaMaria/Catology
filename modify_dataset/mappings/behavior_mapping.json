@@ -1,0 +1,17 @@
+{
+  "Shy": {"Yes": 1, "No": 0},
+  "Calm": {"Yes": 1, "No": 0},
+  "Fearful": {"Yes": 1, "No": 0},
+  "Intelligent": {"Yes": 1, "No": 0},
+  "Vigilant": {"Yes": 1, "No": 0},
+  "Perseverant": {"Yes": 1, "No": 0},
+  "Affectionate": {"Yes": 1, "No": 0},
+  "Friendly": {"Yes": 1, "No": 0},
+  "Solitary": {"Yes": 1, "No": 0},
+  "Brutal": {"Yes": 1, "No": 0},
+  "Dominant": {"Yes": 1, "No": 0},
+  "Aggressive": {"Yes": 1, "No": 0},
+  "Impulsive": {"Yes": 1, "No": 0},
+  "Predictable": {"Yes": 1, "No": 0},
+  "Distracted": {"Yes": 1, "No": 0}
+}
