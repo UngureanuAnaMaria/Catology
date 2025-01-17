@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -41,7 +42,7 @@ def decision_tree_classifier(data, n_splits=5):
 
         clf = DecisionTreeClassifier(
             criterion='entropy',
-            max_depth=4,
+            max_depth=5,
             min_samples_split=20,
             min_samples_leaf=10,
             random_state=42
@@ -88,7 +89,9 @@ def decision_tree_classifier(data, n_splits=5):
     plt.axis("off")
     plt.show()
 
+current_dir = os.path.dirname(__file__)
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+file_path = os.path.join(project_root, 'Catology.xlsx')
 
-file_path = r"C:\Users\User\Desktop\Catology.xlsx"
 dataset = pd.read_excel(file_path)
 decision_tree_classifier(dataset)

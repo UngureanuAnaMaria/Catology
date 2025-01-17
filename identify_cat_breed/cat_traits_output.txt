@@ -1,0 +1,83 @@
+Coat Color: White: 0
+Coat Color: Cream: 0
+Coat Color: Snow: 0
+Coat Color: Silver: 0
+Coat Color: Cream and Seal: 0
+Coat Color: Cream and Chocolate: 0
+Coat Color: Cream and Blue: 0
+Coat Color: Cream and Lilac: 0
+Coat Color: Blue: 1
+Coat Color: Blue-gray: 0
+Coat Color: Red: 0
+Coat Color: Tabby: 0
+Coat Color: Brown Tabby: 0
+Coat Color: Brown: 0
+Coat Color: Black: 0
+Coat Color: Tortoiseshell: 0
+Coat Color: Skin-toned: 0
+Coat Pattern: Rosetted: 0
+Coat Pattern: Spotted: 0
+Coat Pattern: Mitted: 0
+Coat Pattern: Color-Point: 0
+Coat Pattern: Bicolor: 0
+Coat Pattern: Solid: 1
+Coat Pattern: Tabby: 0
+Coat Pattern: Harlequin: 0
+Coat Pattern: Tortie: 0
+Coat Pattern: No Pattern: 0
+Coat Length: Short: 1
+Coat Length: Medium: 0
+Coat Length: Long: 0
+Coat Length: Hairless: 0
+Coat Texture: Sleek: 1
+Coat Texture: Silky: 0
+Coat Texture: Plush: 0
+Coat Texture: Dense and Plush: 0
+Coat Texture: Dense and Woolly: 0
+Coat Texture: Slightly Coarse: 0
+Coat Texture: Luxurious: 0
+Coat Texture: Smooth: 0
+Size: Small: 0
+Size: Medium: 1
+Size: Big: 0
+Size: Very Big: 0
+Body Type: Muscular and Athletic: 0
+Body Type: Long and Lean: 0
+Body Type: Cobby: 1
+Leg Length: Short: 0
+Leg Length: Medium: 0
+Leg Length: Long: 1
+Face Shape: Flat: 0
+Face Shape: Wedge-shaped: 0
+Face Shape: Rounded: 0
+Face Shape: Round: 1
+Face Shape: Square: 0
+Eye Shape: Almond-shaped: 0
+Eye Shape: Oval: 0
+Eye Shape: Round: 1
+Eye Color: Blue: 0
+Eye Color: Green: 0
+Eye Color: Blue-green: 0
+Eye Color: Gold: 1
+Eye Color: Yellow: 0
+Eye Color: Copper: 0
+Eye Color: Orange: 0
+Eye Color: Odd-eyed: 0
+Eye Color: Hazel: 0
+Eye Color: Amber: 0
+Ear Size: Small: 0
+Ear Size: Medium: 1
+Ear Size: Big: 0
+Ear Size: Very Big: 0
+Ear Shape: Rounded: 0
+Ear Shape: Pointed: 0
+Ear Shape: Triangular: 1
+Ear Shape: Tufted: 0
+Tail Shape: Plume and Straight: 0
+Tail Shape: Straight and Whip-like: 0
+Tail Shape: Tapered and Whip-like: 0
+Tail Shape: Straight and Slightly Curved: 1
+Tail Shape: Straight and Tapered: 0
+Tail Length: Short: 0
+Tail Length: Medium: 1
+Tail Length: Long: 0

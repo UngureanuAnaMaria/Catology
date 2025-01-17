@@ -3,12 +3,16 @@ from inspect_dataset.non_numeric.display_values_and_frequencies import display_v
 from inspect_dataset.non_numeric.check_duplicates import check_duplicates
 from inspect_dataset.non_numeric.check_missing_values import check_missing_values
 from inspect_dataset.non_numeric.plot_attribute_distributions import plot_behavioral_traits, plot_other_traits
-
 from colorama import Fore, Style
+import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 
 def inspect_non_numeric_dataset():
-    file_path = r"C:\Users\User\Desktop\Catology.xlsx"
+    current_dir = os.path.dirname(__file__)
+    project_root = os.path.abspath(os.path.join(current_dir, '..'))
+    file_path = os.path.join(project_root, 'Catology.xlsx')
 
     while True:
         print(f"""

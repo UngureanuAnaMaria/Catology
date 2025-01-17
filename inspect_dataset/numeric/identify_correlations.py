@@ -1,5 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 
 def analyze_correlations(file_path):
@@ -37,4 +40,8 @@ def analyze_correlations(file_path):
     plt.show()
 
 
-analyze_correlations(r"C:\\Users\\User\\Desktop\\Catology.xlsx")
+current_dir = os.path.dirname(__file__)
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+file_path = os.path.join(project_root, 'Catology.xlsx')
+
+analyze_correlations(file_path)

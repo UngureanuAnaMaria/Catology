@@ -1,9 +1,10 @@
 import openai
-import pandas as pd
 import numpy as np
 from colorama import Fore, Style
 from classifiers.random_forest_classifier import *
 from classifiers.neural_network import NeuralNetwork, predict_breed, preprocess_data
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 openai.api_key = "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"
 
@@ -32,7 +33,9 @@ def generate_breed_description(breed):
 
 
 def apply():
-    file_path = r"C:\Users\anaun\OneDrive\Desktop\CatologyProject\Catology.xlsx"
+    current_dir = os.path.dirname(__file__)
+    project_root = os.path.abspath(os.path.join(current_dir, '..'))
+    file_path = os.path.join(project_root, 'Catology.xlsx')
     dataset = pd.read_excel(file_path)
 
     breed_order = [
@@ -41,7 +44,7 @@ def apply():
         "European Shorthair", "Sphynx"
     ]
 
-    new_cat_features_0 = np.array([
+    bengal_rf= np.array([
         0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0,
         0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -55,20 +58,21 @@ def apply():
         0.0
     ])
 
-    new_cat_features_10_2 = np.array([
-        0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0,
-        0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    bengal_nn = np.array([
+        0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0,
+        0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-        0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
-        0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0,
-        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
-        0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0,
-        0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-        0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0,
-        0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0
+        0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
+        0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0,
+        0.0
     ])
 
-    new_cat_features_10 = np.array([
+    european_shorthair_rf = np.array([
         1.0, 2.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0,
         0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -81,7 +85,20 @@ def apply():
         0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0
     ])
 
-    new_cat_features_8 = np.array([
+    european_shorthair_nn = np.array([
+        0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0,
+        0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
+        0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+        0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0
+    ])
+
+    persian_rf = np.array([
         1.0, 2.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0,
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -91,10 +108,10 @@ def apply():
         0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0,
         1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0,
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
-        0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0
+        0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
     ])
 
-    new_cat_features_8_2 = np.array([
+    persian_nn = np.array([
         0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0,
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -118,7 +135,7 @@ def apply():
 
         if choice == '1':
             rf_model = random_forest_classifier(dataset)
-            predicted_breed_index = predict_breed_rf(rf_model, new_cat_features_8)
+            predicted_breed_index = predict_breed_rf(rf_model, bengal_rf)
 
             predicted_breed = breed_order[int(predicted_breed_index)]
             print(f"The predicted breed is: {predicted_breed}")
@@ -128,14 +145,15 @@ def apply():
         elif choice == '2':
             X_scaled, y_encoded, encoder, scaler = preprocess_data(dataset)
 
-            input_size = X_scaled.shape[1]
-            hidden_sizes = [64, 32]
-            output_size = y_encoded.shape[1]
+            current_dir = os.path.dirname(__file__)
+            project_root = os.path.abspath(os.path.join(current_dir, '..'))
+            model_path = os.path.join(project_root, 'classifiers', 'neural_network_model.pkl')
 
-            nn_model = NeuralNetwork(input_size, hidden_sizes, output_size)
-            nn_model.train(X_scaled, y_encoded, X_scaled, y_encoded, epochs=40, learning_rate=0.003)
+            nn_model= NeuralNetwork.load_model(model_path)
 
-            predicted_breed_index = predict_breed(nn_model, encoder, new_cat_features_10_2)
+            X_test_scaled = scaler.transform(bengal_nn.reshape(1, -1))
+
+            predicted_breed_index = predict_breed(nn_model, encoder, X_test_scaled)
 
             predicted_breed = breed_order[int(predicted_breed_index)]
 

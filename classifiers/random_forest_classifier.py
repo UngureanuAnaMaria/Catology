@@ -1,11 +1,8 @@
-import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import classification_report, accuracy_score
-
+import os
+import pandas as pd
 
 def random_forest_classifier(data):
     X = data.drop(columns='Breed')
@@ -39,3 +36,9 @@ def predict_breed_rf(model, instance):
     return predicted_breed[0]
 
 
+# current_dir = os.path.dirname(__file__)
+# project_root = os.path.abspath(os.path.join(current_dir, '..'))
+# file_path = os.path.join(project_root, 'Catology.xlsx')
+# dataset = pd.read_excel(file_path)
+#
+# random_forest_classifier(dataset)

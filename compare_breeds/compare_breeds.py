@@ -5,9 +5,9 @@ from compare_breeds_by_traits import compare_breeds_by_traits
 def compare_breeds():
     while True:
         print(f"""
-        {Fore.BLUE}1.{Style.RESET_ALL} Compare breeds using AI
-        {Fore.BLUE}2.{Style.RESET_ALL} Compare breeds using the data from database
-        {Fore.RED}3.{Style.RESET_ALL} Exit
+        {Fore.BLUE}1. {Style.RESET_ALL} Compare breeds using AI
+        {Fore.BLUE}2. {Style.RESET_ALL} Compare breeds using the data from database
+        {Fore.RED}3. {Style.RESET_ALL} Exit
         """)
 
         choice = input("Please choose the desired option: ")

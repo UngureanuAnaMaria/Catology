@@ -1,5 +1,8 @@
+import os
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 
 def transform_to_numeric_with_prefix(file_path):
@@ -62,4 +65,8 @@ def transform_to_numeric_with_prefix(file_path):
     print("The dataset successfully transformed from non-numeric to numeric")
 
 
-transform_to_numeric_with_prefix(r"C:\\Users\\User\\Desktop\\Catology.xlsx")
+current_dir = os.path.dirname(__file__)
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+file_path = os.path.join(project_root, 'Catology.xlsx')
+
+transform_to_numeric_with_prefix(file_path)

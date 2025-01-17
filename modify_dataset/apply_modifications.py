@@ -16,7 +16,9 @@ from modify_dataset.update_age_column import update_age_column
 from modify_dataset.update_behavior_columns import rename_behavior_columns, update_behavior_columns
 from modify_dataset.update_breed_column import update_breed_column, move_breed_column
 from modify_dataset.update_sex_column import update_sex_column
-
+import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 def apply_modifications(file_path):
 
@@ -46,4 +48,8 @@ def apply_modifications(file_path):
     sort_by_breed_sex_age(file_path)
 
 
-apply_modifications(r"C:\Users\User\Desktop\Catology.xlsx")
+current_dir = os.path.dirname(__file__)
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+file_path = os.path.join(project_root, 'Catology.xlsx')
+
+apply_modifications(file_path)

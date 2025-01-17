@@ -1,4 +1,7 @@
+import os
 import pandas as pd
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 def compare_breeds_by_traits(breed1, breed2):
     """
@@ -7,8 +10,10 @@ def compare_breeds_by_traits(breed1, breed2):
     :param breed1: The name of the first breed (e.g., "Bengal").
     :param breed2: The name of the second breed (e.g., "Birman").
     """
-    file_path = r"C:\Users\anaun\OneDrive\Desktop\CatologyProject\CatologyDatas.xlsx"
-    dataset = pd.read_excel(file_path)
+    current_dir = os.path.dirname(__file__)
+    project_root = os.path.abspath(os.path.join(current_dir, '..'))
+    file_path = os.path.join(project_root, 'CatologyDatas.xlsx')
+    dataset = pd.read_excel(file_path, engine='openpyxl')
 
     breed1_traits = dataset[dataset["Breed"] == breed1]
     breed2_traits = dataset[dataset["Breed"] == breed2]

@@ -9,15 +9,18 @@ from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 IMAGE_SIZE = (64, 64)
-IMAGE_DIR = r"C:\Users\anaun\OneDrive\Desktop\CatologyProject\image_based_breed_classification\breed_images_dataset\images"
-MODEL_FILE = r"C:\Users\anaun\OneDrive\Desktop\CatologyProject\image_based_breed_classification\cat_breed_classifier.keras"
+current_dir = os.path.dirname(__file__)
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+IMAGE_DIR = os.path.join(project_root, 'image_based_breed_classification', 'breed_images_dataset', 'images')
+MODEL_FILE = os.path.join(project_root, 'image_based_breed_classification', 'cat_breed_classifier.keras')
+SAVE_FILE = os.path.join(project_root, 'image_based_breed_classification', 'cat_images_data.npy')
 
 
-def load_and_save_images(image_dir,
-                         save_file=r"C:\Users\anaun\OneDrive\Desktop\CatologyProject\image_based_breed_classification"
-                                   r"\cat_images_data.npy"):
+def load_and_save_images(image_dir, save_file):
     if os.path.exists(save_file):
         print(f"Loading data from {save_file}...")
         data = np.load(save_file, allow_pickle=True).item()
@@ -53,7 +56,7 @@ def load_and_save_images(image_dir,
     return X, y_labels
 
 
-X, y_labels = load_and_save_images(IMAGE_DIR)
+X, y_labels = load_and_save_images(IMAGE_DIR, SAVE_FILE)
 
 unique_labels = sorted(set(y_labels))
 label_to_index = {label: index for index, label in enumerate(unique_labels)}
@@ -131,7 +134,7 @@ def breed_by_image():
     while True:
         print(f"""
         {Fore.BLUE}1.{Style.RESET_ALL} Predict breed by image
-        {Fore.RED}3.{Style.RESET_ALL} Exit
+        {Fore.RED}2. {Style.RESET_ALL} Exit
         """)
 
         choice = input("Please choose the desired option: ")

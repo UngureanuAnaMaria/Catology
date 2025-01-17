@@ -2,14 +2,12 @@ import os
 import pickle
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
-
 
 def sigmoid(Z):
     return 1 / (1 + np.exp(-np.clip(Z, -500, 500)))
@@ -88,7 +86,6 @@ class NeuralNetwork:
             activation = relu(np.dot(activation, self.weights[i]) + self.biases[i])
             self.hidden_outputs.append(activation)
 
-        # Output
         output_activation = np.dot(activation, self.weights[-1]) + self.biases[-1]
         self.predicted_output = sigmoid(output_activation)
 
@@ -136,31 +133,14 @@ class NeuralNetwork:
             train_loss = self.calculate_loss(y_train, self.feedforward(X_train))
             train_losses.append(train_loss)
 
-            train_accuracy = self.calculate_accuracy(y_train, self.feedforward(X_train))
-            print(f"Epoch {epoch}, Loss: {train_loss:.4f}, Accuracy: {train_accuracy * 100:.2f}%")
-
-            if X_val is not None and y_val is not None:
-                val_loss = self.calculate_loss(y_val, self.feedforward(X_val))
-                val_losses.append(val_loss)
-
-                val_accuracy = self.calculate_accuracy(y_val, self.feedforward(X_val))
-                print(f"Validation Loss: {val_loss:.4f}, Validation Accuracy: {val_accuracy * 100:.2f}%")
-
             test_loss = self.calculate_loss(y_test, self.feedforward(X_test))
             test_accuracy = self.calculate_accuracy(y_test, self.feedforward(X_test))
             test_losses.append(test_loss)
             test_accuracies.append(test_accuracy)
-            print(f"Test Loss: {test_loss:.4f}, Test Accuracy: {test_accuracy * 100:.2f}%")
 
-        plt.plot(train_losses, label="Train Loss")
-        if X_val is not None:
-            plt.plot(val_losses, label="Validation Loss")
-        plt.plot(test_losses, label="Test Loss")
-        plt.xlabel("Epochs")
-        plt.ylabel("Loss")
-        plt.title("Convergence of Training, Validation, and Test Loss")
-        plt.legend()
-        plt.show()
+            if X_val is not None and y_val is not None:
+                val_loss = self.calculate_loss(y_val, self.feedforward(X_val))
+                val_losses.append(val_loss)
 
     def predict(self, X):
         return self.feedforward(X)
@@ -179,7 +159,10 @@ class NeuralNetwork:
 
 
 def preprocess_data(dataset):
-    X = dataset.drop(columns=['Breed', 'Sex', 'Age']).values
+    X = dataset.drop(
+        columns=['Breed', 'Sex', 'Age', 'Shy', 'Calm', 'Fearful', 'Intelligent', 'Vigilant',
+                 'Perseverant', 'Affectionate', 'Friendly', 'Solitary', 'Brutal', 'Dominant',
+                 'Aggressive', 'Impulsive', 'Predictable', 'Distracted']).values
     y = dataset['Breed'].values
 
     scaler = StandardScaler()
@@ -187,24 +170,15 @@ def preprocess_data(dataset):
 
     encoder = LabelEncoder()
     y_encoded = encoder.fit_transform(y)
-    y_encoded = np.eye(len(np.unique(y_encoded)))[y_encoded]  # One-hot encoding
+    y_encoded = np.eye(len(np.unique(y_encoded)))[y_encoded]
 
-    return X_scaled, y_encoded, encoder, scaler
+    return X_scaled, y_encoded, scaler, encoder
 
-def predict_breed(model, encoder, X):
-    predictions = model.predict(X)
-
-    # Determină indexul clasei cu probabilitatea cea mai mare
-    predicted_classes = np.argmax(predictions, axis=1)
-    print("Predicted class:", np.argmax(predictions, axis=1))
-
-    predicted_breeds = encoder.inverse_transform(predicted_classes)
-
-    return predicted_breeds
 
 def preprocess_single_instance(instance, scaler, encoder):
     instance_scaled = scaler.transform([instance])
     return instance_scaled
+
 
 # current_dir = os.path.dirname(__file__)
 # project_root = os.path.abspath(os.path.join(current_dir, '..'))
@@ -223,4 +197,3 @@ def preprocess_single_instance(instance, scaler, encoder):
 #
 # model_file_path = "neural_network_model.pkl"
 # nn.save_model(model_file_path)
-
